@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>change blocks</title>
+    <style>
+        h1{text-align: center;}
+        .main-section{
+            width: 60%;
+            height: 500px;
+            margin: 5px auto;
+            padding: 0 40px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .block{
+            width: 100px;
+            height: 100px;
+            background-color: black;
+        }
+        #dark{
+            margin: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading">Change Block Color</h1>
+    <div class="main-section">
+        <div class="block"></div>
+        <div class="bnt-section">
+            <p id="main-text">click the button to change the color of the div</p>
+            <nav class="btns">
+                <a href="#" id="red">Red</a>
+                <a href="#" id="blue">Blue</a>
+                <a href="#" id="green">Green</a>
+                <a href="#" id="dark">Darkmode</a>
+            </nav>
+            
+        </div>
+    </div>
+    <script src="block.js"></script>
+</body>
+</html>
